@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -45,11 +46,19 @@ a{
 
 
 .my_img{
-    height: 250px;
-    width: 220px;
-    background-color: #6C757D;
+    height: 290px;
+    width: 260px;
+    background-image: url(./img/me.jpeg);
+    background-position: top;
+    background-size: cover;
     border-radius: 50%;
     margin: 3%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+.my_img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px white;
 }
 
 
