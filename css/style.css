@@ -39,11 +39,7 @@
     display: flex;
     justify-content: space-between;
 }
-.fa-github{
-    font-size: 50px;
-    padding: 10px;
-}
-.fa-linkedin{
+.firsti{
     font-size: 50px;
     padding: 10px;
 }
@@ -148,6 +144,7 @@
     background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -155,7 +152,7 @@
     
 }
 .cer{
-    width: 280px;
+    width: 550px;
     height: 350px;
     background-color: #6C757D;
     margin: 25px;
@@ -168,6 +165,75 @@
 
 
 }
+.img1{
+    width: 25%;
+    height: 40%;
+    background-image: url(./img/hasht.webp);
+    background-position: center;
+    background-size: contain;
+    
+}
+.img2{
+    width: 25%;
+    height: 20%;
+    background-image: url(./img/zepter.webp);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.img4{
+    width: 15%;
+    height: 20%;
+    background-image: url(./img/orang.webp);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.last{
+    background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    gap: 15px;
+    height: 50vh;
+    padding: 80px 0px;
+}
+.lst1{
+    width: 100%;
+    height: 35%;
+}
+.lst2{
+    width: 100%;
+    height: 60%;
+}
+ .lst1 ,.lst2,.lst3{
+    border-radius: 10px;
+ }
+
+ footer{
+    background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
+width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .lasti{
+    font-size: 30px;
+    padding: 10px;
+ }
+
+
 @media screen and (max-width: 600px){
     .about_tit{
         font-size: 25px;
@@ -178,5 +244,14 @@
     font-size: 20px;
     line-height: 4vh;
     }
-    
+    .cer{
+        width: 350px;
+    }
+    .lasti{
+        font-size: 20px;
+        padding: 8px;
+    }
+    .Contact{
+        font-size: 15px;
+    }
 }
