@@ -97,12 +97,12 @@ a{
 .about{
     background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
     width: 100%;
-    height: 100vh;
+    padding: 150px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
 
 }
 
