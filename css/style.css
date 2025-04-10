@@ -236,9 +236,8 @@ a{
 .last{
     background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
+    height: 90vh;
     
 }
 .email{
@@ -278,6 +277,101 @@ width: 100%;
     padding: 10px;
  }
 
+ /* Modern Contact Form Styles */
+.email {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.email h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.modern-input, .modern-textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.modern-input:focus, .modern-textarea:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.modern-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.modern-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6C757D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.modern-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modern-button:active {
+    transform: translateY(0);
+}
+
+.modern-button i {
+    font-size: 18px;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .email {
+        padding: 30px 0;
+    }
+    
+    .modern-input, .modern-textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .modern-button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 600px){
     .about_tit{
